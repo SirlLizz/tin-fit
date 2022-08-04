@@ -1,0 +1,31 @@
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+    color: black;
+    display: flex;
+}
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.social-links{
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px 10px auto;
+}
+
+.text-block{
+    margin: 18px;
+    position:center;
+    width:100%;
+    text-align:center;
+}
