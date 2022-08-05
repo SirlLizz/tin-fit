@@ -6,6 +6,7 @@
 }
 
 .fa {
+    margin: 0 5px;
     text-align: center;
     text-decoration: none;
 }
@@ -16,11 +17,11 @@
 
 .social-links{
     text-align: center;
-    width: 120px;
+    width: 240px;
     height: 40px;
     display: flex;
     justify-content: space-around;
-    margin: 10px 10px 10px auto;
+    margin: 10px 60px 10px auto;
 }
 
 .text-block{

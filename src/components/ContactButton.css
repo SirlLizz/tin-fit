@@ -1,0 +1,77 @@
+*{
+    outline: none !important
+}
+
+.contactbtn{
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    margin: auto auto;
+    border-radius: 25px;
+    background-color: white;
+    display: inline-block;
+}
+
+.contactbtn:active{
+}
+.contactbtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.contactimg{
+    height: 30px;
+    width: 30px;
+    margin: auto auto;
+}
+
+.modal{
+    text-align: center;
+}
+
+.modalimg{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin: auto auto;
+}
+
+.modaltext{
+    margin: 20px;
+    font-size: 32px;
+}
+
+.modaltable{
+    margin: 0 auto;
+}
+
+.modalbtn{
+    margin: 10px auto;
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    transition-duration: 0.6s;
+    border: 2px solid black;
+}
+
+
+.modalbtn:hover {
+    background-color: black;
+    color: white;
+}
+
+.modaltddiv{
+    display: flex;
+}
+
+.modaltdimg{
+    margin: 8px 10px;
+}
+
+.modaltdtext{
+    margin: 5px 10px;
+}

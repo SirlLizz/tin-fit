@@ -12,4 +12,17 @@ code {
     monospace;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #757575;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
 
