@@ -1,11 +1,13 @@
 import './ContactButton.css';
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
+import icon from '../source/kristina-icon.jpg';
 
 function ContactButton() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleShow = () => {setShow(true); }
+    const onShow = () => {document.getElementsByClassName('modal-open')[0].style.paddingRight = 0; }
     return (
         <>
             <button className="contactbtn" onClick={handleShow}>
@@ -13,13 +15,14 @@ function ContactButton() {
                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAADGklEQVRIib3XbajfYxgH8M/5n9nGDm3jZCdsxdRKIzrbecWis7HkIW+kmLyZh1JWOChEyVNKEl4pXjg7ZW3kKZPJ0jQywpRTlocZhnmanGbmxff+Ob+d/o7z3/+fb931u+/7uq/rvu7r8dfl33EkLsQK9KMXc7EHX+JtvIhXsH8SPk3R1WRtFm7C9dhbGL+Fb4vQXhyPczCI33AnnsJfrV6gwqnYXsalaPwH/SyswW68Vi7VMvrxM57A4S2ePQ5v4FMc28rB+XLrB1oUWMdMbMJWHDbVQ+vxkuY2bwWzsQu3ToV4KcZwYptCK1yBH8T+k+JhPN8hoTAdP0q4XVXmTfE+VndQMKyVWD+AUZw7kaCBE7Cjw4J34BPcgmfxAm6vE0zDDLFxJzFWxv0YwDIMifPeXQneKVp3EvPxVfkexQ04GhuwBRsbeA9ndVBoV+G3Ex+Jo22VrLgXj6EbLi6bR3RI8JnYJxrOk1ftRY9kuJ9wibLxodijXXTjXdGsr6wtxzM1muekoCDG/wMr2xT8kNi2VxRaXts7uYxrxAT/4Dr87tDs3Y37RNNlZe0YB2u6SrLa+fiufngOfsHlLQo9HZvxDZaUtSGxKdFyVY3+DoxW9baBR8tN1k1gXDlJRTsdC3G1NAnvSJNwWfkmGauO+nwBPifJfESqyqKyOVM8b50kggPiqXvK95/YJmVwbY3pPZIwiJ2Ha3tXFs234EbYWJivkScaEZffjcfLhe4tDAdxgZQ/0oMtrTEfEJMR5xqs7S0swseUhPUIvpbn2iSeubIchGslzt+sMepzsGcO4eba/GMxD/HsYXnFD7QQtg28jC8Ksyo+JyaHHuNhVAntq81HpBJWTjclzBbbbBft69rUQ2bY+KvMk8REKtP3krlaRg+ellh/UPrtClVyqLDCuKnm4jbpvc+oCA6lxzoPd0nMbpaeu18c8nV53iEslso0IA65QJLT2fisneZusfxpLClMj5JeaxdOKRdYL43Aq1I8hiUUL2pD7qRoyHM/WS6zD79KHt+Pbe22s1PBNJwmqfUkKUYb/ge5zfE3a3OtggWYoiUAAAAASUVORK5CYII=" alt="Contact-button-image"/>
             </button>
 
-            <Modal show={show} onHide={handleClose}
+            <Modal show={show} onShow={onShow} onHide={handleClose}
                    size="lg"
                    aria-labelledby="contained-modal-title-vcenter"
                    centered className="modal">
                 <Modal.Body >
-                    <img className="modalimg" src="../source/8MQPfm5q7iY.jpg" alt={"bubble-kristina"}/>
+                    <img className="modalimg" src={icon} alt={"bubble-kristina"}/>
                     <h1 className="modaltext">Маркелова Кристина</h1>
+                    <h2 className="modalundertext">Фитнес-тренер</h2>
                     <table className="modaltable">
                         <tbody>
                             <tr>
@@ -66,7 +69,6 @@ function ContactButton() {
                             </tr>
                         </tbody>
                     </table>
-
                 </Modal.Body>
             </Modal>
         </>

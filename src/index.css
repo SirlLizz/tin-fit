@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body.modal-open.style{
+  padding-right: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -25,4 +29,9 @@ code {
 ::-webkit-scrollbar-track {
   border-radius: 10px;
 }
+
+html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden] {
+  padding-right: 0 !important;
+  -webkit-overflow-scrolling: touch;}
+html { overflow-y: scroll !important; }
 
