@@ -10,6 +10,7 @@ function ContactButton() {
     const onShow = () => {
         document.getElementsByClassName('modal-open')[0].style.paddingRight = 0;
         document.getElementsByClassName('navbar-toggler')[0].style.marginRight = 0;
+        /*document.getElementsByClassName('fade')[1].style.paddingRight = 0;*/
     }
     return (
         <>

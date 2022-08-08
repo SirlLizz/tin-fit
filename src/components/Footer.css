@@ -5,6 +5,13 @@
     display: flex;
 }
 
+.spacer {
+    flex-shrink: 0;
+    text-align: center;
+    width: 100%;
+    height: 65px;
+}
+
 .fa {
     margin: 0 5px;
     text-align: center;
