@@ -7,7 +7,10 @@ function ContactButton() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => {setShow(true); }
-    const onShow = () => {document.getElementsByClassName('modal-open')[0].style.paddingRight = 0; }
+    const onShow = () => {
+        document.getElementsByClassName('modal-open')[0].style.paddingRight = 0;
+        document.getElementsByClassName('navbar-toggler')[0].style.marginRight = 0;
+    }
     return (
         <>
             <button className="contactbtn" onClick={handleShow}>

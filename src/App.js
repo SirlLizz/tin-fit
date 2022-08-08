@@ -18,10 +18,10 @@ function App() {
                 <NavBar/>
                 <Routes>
                     <Route exact path="/" element={<Home/>} />
-                      <Route exact path="/about" element={ <About/> } />
+                    <Route exact path="/about" element={ <About/> } />
                     <Route exact path="/prices" element={ <Prices/> } />
-                     <Route exact path="/contact" element={ <Contact/> } />
-                     <Route component={ NoMatch } />
+                    <Route exact path="/contact" element={ <Contact/> } />
+                    <Route component={ NoMatch } />
                 </Routes>
             </Router>
         </header>

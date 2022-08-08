@@ -5,7 +5,7 @@ function Footer(){
     return (
         <footer className="footer">
             <div className="text-block">
-                <p>   ©2021 Кристина Маркелова. Все права защищены.</p>
+                <p>   ©2022 Кристина Маркелова. Все права защищены.</p>
             </div>
 {/*            <div className="social-links">
                 <a href="https://vk.com/tinamak63" className="fa" >
