@@ -1,12 +1,13 @@
 import React from 'react';
 import Maps from "../components/Maps/Maps";
+import "./Contact.css"
 
 function Contact() {
-    return (
-        <div>
-            <p>This is contact page!</p>
-        </div>
 
+    return (
+        <>
+            <Maps/>
+        </>
     );
 }
-export default Contact;
+export default Contact

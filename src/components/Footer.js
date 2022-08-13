@@ -3,10 +3,10 @@ import './Footer.css';
 
 function Footer(){
     return (
-        <div className= "spacer">
+        <div className= "spacer-footer">
             <footer className="footer">
                 <div className="text-block">
-                    <p>   ©2022 Кристина Маркелова. Все права защищены.</p>
+                    <p className="p-text">   ©2022 Кристина Маркелова. Все права защищены.</p>
                 </div>
         {/*            <div className="social-links">
                     <a href="https://vk.com/tinamak63" className="fa" >

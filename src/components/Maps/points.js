@@ -1,42 +1,13 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
-        title: "Placemark 1",
-        descr: "Some description",
-        coords: [55.831903, 37.411961]
+        title: "Ново-Вокзальная улица, 189А",
+        descr: "Студия находится по адресу Ново-Вокзальная улица, 189А, 3 этаж, кабинет 29.\n\n Это бежевое сдание с красными полосами. Если идти со стороны Стара-Загора - левый вход, в правом - Пятерочка. Заходите, по лестнице поднимаетесь на 3 этаж, после лестницы - налево, идете прямо, с правой стороны будет кабинет 29.",
+        coords: [53.234670, 50.223173]
     },
     {
-        title: "Placemark 2",
-        descr: "Some description",
-        coords: [55.763338, 37.565466]
-    },
-    {
-        title: "Placemark 3",
-        descr: "Some description",
-        coords: [55.763338, 37.565466]
-    },
-    {
-        title: "Placemark 4",
-        descr: "Some description",
-        coords: [55.744522, 37.616378]
-    },
-    {
-        title: "Placemark 5",
-        descr: "Some description",
-        coords: [55.780898, 37.642889]
-    },
-    {
-        title: "Placemark 6",
-        descr: "Some description",
-        coords: [55.793559, 37.435983]
-    },
-    {
-        title: "Placemark 7",
-        descr: "Some description",
-        coords: [55.800584, 37.675638]
-    },
-    {
-        title: "Placemark 8",
-        descr: "Some description",
-        coords: [55.716733, 37.589988]
+        title: "Московское шоссе, 4A",
+        descr: "Идти туда, дойдешь сюда",
+        coords: [53.203721, 50.144417]
     }
 ];
